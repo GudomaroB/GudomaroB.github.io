@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #d8d3d3;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+.flex {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calc {
+  background-color: #1c1c1c;
+  width: 38rem;
+  min-height: 66.3rem;
+  border-radius: 3.9rem;
+  padding: 0 1rem;
+}
+.block1 {
+  height: 15rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 2rem;
+}
+.span44 {
+  text-align: right;
+  background-color: #1c1c1c;
+  width: 100%;
+  height: 7.1rem;
+  font-size: 6.4rem;
+  color: #fff;
+  border: none;
+}
+.span44:focus {
+  outline: none;
+}
+.border {
+  width: 100%;
+  height: 0.3rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.ac {
+  position: relative;
+  width: 8rem;
+  height: 8rem;
+  background-color: #aeaeae;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.ac > span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  color: #fff;
+}
+.ac > span:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.ac3 {
+  background-color: #ffb800;
+}
+.ac4,
+.ac5,
+.ac6,
+.ac7,
+.ac8,
+.ac9,
+.ac10,
+.ac11,
+.ac12,
+.ac13,
+.ac14 {
+  background-color: #6d6d6d;
+}
+.nol {
+  width: 100%;
+  grid-column: 1 / 3;
+  border-radius: 50rem;
+}
+
+.gray {
+  background: #aeaeae;
+}
+.white {
+  background: #fff;
+  color: #ffb800;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  display: none;
+}
